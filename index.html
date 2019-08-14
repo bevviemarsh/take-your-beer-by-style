@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="info">
+      <h1 class="info__title">Our beers</h1>
+      <p class="info__paragraph">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus alias
+        voluptatem ea voluptas reprehenderit minus distinctio sint nihil,
+        numquam dolorum nostrum beatae. Quam, quod consequuntur. Ex quia
+        inventore aliquam praesentium.
+      </p>
+      <ul class="filters">
+        <li class="filters__item">
+          <button
+            class="filters__button filters__button--inactive"
+            data-id="1"
+            id="all"
+          >
+            all
+          </button>
+        </li>
+        <li class="filters__item">
+          <button
+            class="filters__button filters__button--inactive"
+            data-id="2"
+            id="ipa"
+          >
+            IPA
+          </button>
+        </li>
+        <li class="filters__item">
+          <button
+            class="filters__button filters__button--inactive"
+            data-id="3"
+            id="stout"
+          >
+            stout
+          </button>
+        </li>
+        <li class="filters__item">
+          <button
+            class="filters__button filters__button--inactive"
+            data-id="4"
+            id="bock"
+          >
+            bock
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="item" data-style="stout">
+        <div class="item__header">
+          <h2 class="item__title">Russian Imperial Stout</h2>
+        </div>
+        <div class="item__content">
+          <p class="item__paragraph">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Doloremque, itaque assumenda nesciunt atque aliquid fugiat, modi sed
+            consequatur deleniti ab quae ipsam eligendi aliquam voluptatem
+            voluptates! Assumenda similique itaque rerum.
+          </p>
+          <button class="item__button button">buy</button>
+        </div>
+      </div>
+      <div class="item" data-style="bock">
+        <div class="item__header">
+          <h2 class="item__title">Doppelbock</h2>
+        </div>
+        <div class="item__content">
+          <p class="item__paragraph">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Doloremque, itaque assumenda nesciunt atque aliquid fugiat, modi sed
+            consequatur deleniti ab quae ipsam eligendi aliquam voluptatem
+            voluptates! Assumenda similique itaque rerum.
+          </p>
+          <button class="item__button button">buy</button>
+        </div>
+      </div>
+      <div class="item" data-style="ipa">
+        <div class="item__header">
+          <h2 class="item__title">Red India Pale Ale</h2>
+        </div>
+        <div class="item__content">
+          <p class="item__paragraph">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Doloremque, itaque assumenda nesciunt atque aliquid fugiat, modi sed
+            consequatur deleniti ab quae ipsam eligendi aliquam voluptatem
+            voluptates! Assumenda similique itaque rerum.
+          </p>
+          <button class="item__button button">buy</button>
+        </div>
+      </div>
+      <div class="item" data-style="ipa">
+        <div class="item__header">
+          <h2 class="item__title">Black India Pale Ale</h2>
+        </div>
+        <div class="item__content">
+          <p class="item__paragraph">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Doloremque, itaque assumenda nesciunt atque aliquid fugiat, modi sed
+            consequatur deleniti ab quae ipsam eligendi aliquam voluptatem
+            voluptates! Assumenda similique itaque rerum.
+          </p>
+          <button class="item__button button">buy</button>
+        </div>
+      </div>
+      <div class="item" data-style="bock">
+        <div class="item__header">
+          <h2 class="item__title">Weizenbock</h2>
+        </div>
+        <div class="item__content">
+          <p class="item__paragraph">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Doloremque, itaque assumenda nesciunt atque aliquid fugiat, modi sed
+            consequatur deleniti ab quae ipsam eligendi aliquam voluptatem
+            voluptates! Assumenda similique itaque rerum.
+          </p>
+          <button class="item__button button">buy</button>
+        </div>
+      </div>
+      <div class="item" data-style="bock">
+        <div class="item__header">
+          <h2 class="item__title">Bock</h2>
+        </div>
+        <div class="item__content">
+          <p class="item__paragraph">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Doloremque, itaque assumenda nesciunt atque aliquid fugiat, modi sed
+            consequatur deleniti ab quae ipsam eligendi aliquam voluptatem
+            voluptates! Assumenda similique itaque rerum.
+          </p>
+          <button class="item__button button">buy</button>
+        </div>
+      </div>
+      <div class="item" data-style="stout">
+        <div class="item__header">
+          <h2 class="item__title">Foreign Extra Stout</h2>
+        </div>
+        <div class="item__content">
+          <p class="item__paragraph">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Doloremque, itaque assumenda nesciunt atque aliquid fugiat, modi sed
+            consequatur deleniti ab quae ipsam eligendi aliquam voluptatem
+            voluptates! Assumenda similique itaque rerum.
+          </p>
+          <button class="item__button button">buy</button>
+        </div>
+      </div>
+      <div class="item" data-style="ipa">
+        <div class="item__header">
+          <h2 class="item__title">Imperial India Pale Ale</h2>
+        </div>
+        <div class="item__content">
+          <p class="item__paragraph">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Doloremque, itaque assumenda nesciunt atque aliquid fugiat, modi sed
+            consequatur deleniti ab quae ipsam eligendi aliquam voluptatem
+            voluptates! Assumenda similique itaque rerum.
+          </p>
+          <button class="item__button button">buy</button>
+        </div>
+      </div>
+      <div class="item" data-style="bock">
+        <div class="item__header">
+          <h2 class="item__title">Rauchbock</h2>
+        </div>
+        <div class="item__content">
+          <p class="item__paragraph">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Doloremque, itaque assumenda nesciunt atque aliquid fugiat, modi sed
+            consequatur deleniti ab quae ipsam eligendi aliquam voluptatem
+            voluptates! Assumenda similique itaque rerum.
+          </p>
+          <button class="item__button button">buy</button>
+        </div>
+      </div>
+      <div class="item" data-style="ipa">
+        <div class="item__header">
+          <h2 class="item__title">New England India Pale Ale</h2>
+        </div>
+        <div class="item__content">
+          <p class="item__paragraph">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Doloremque, itaque assumenda nesciunt atque aliquid fugiat, modi sed
+            consequatur deleniti ab quae ipsam eligendi aliquam voluptatem
+            voluptates! Assumenda similique itaque rerum.
+          </p>
+          <button class="item__button button">buy</button>
+        </div>
+      </div>
+      <div class="item" data-style="stout">
+        <div class="item__header">
+          <h2 class="item__title">Sour Cherry Stout</h2>
+        </div>
+        <div class="item__content">
+          <p class="item__paragraph">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Doloremque, itaque assumenda nesciunt atque aliquid fugiat, modi sed
+            consequatur deleniti ab quae ipsam eligendi aliquam voluptatem
+            voluptates! Assumenda similique itaque rerum.
+          </p>
+          <button class="item__button button">buy</button>
+        </div>
+      </div>
+      <div class="item" data-style="stout">
+        <div class="item__header">
+          <h2 class="item__title">Peated Imperial Stout</h2>
+        </div>
+        <div class="item__content">
+          <p class="item__paragraph">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Doloremque, itaque assumenda nesciunt atque aliquid fugiat, modi sed
+            consequatur deleniti ab quae ipsam eligendi aliquam voluptatem
+            voluptates! Assumenda similique itaque rerum.
+          </p>
+          <button class="item__button button">buy</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
